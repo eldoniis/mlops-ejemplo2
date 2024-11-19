@@ -4,7 +4,7 @@ git config --global user.name 'Donovan Castrillon'
 git config --global user.email 'dcastrillf@eafit.edu.co'
 # DEBE CONFIGURAR UNA VARIABLE DE AMBIENTE GH_TOKEN EN Github-Setttings-> Develope Settings -> Personal access token - > Tokens
 # LUEGO DENTRO DEL REPOSITORIO: Settings -> Secrets and variables -> Actions -> Secrets -> Environment secrets
-git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/edwinm67/mlops-ejemplo2.git
+git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/dcastriilf/mlops-ejemplo2.git
 git add .
 set +e 
 git status | grep modified
